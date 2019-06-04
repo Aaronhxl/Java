@@ -1,0 +1,3 @@
+com\hellobike\bean\UserAddress.class
+com\hellobike\service\UserService.class
+com\hellobike\service\OrderService.class

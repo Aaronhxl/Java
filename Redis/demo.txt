@@ -1,0 +1,963 @@
+<interfaces>
+<!-- 订单重构 注意注释掉以前的 start -->
+<interface>
+    <action>rent.powerBike.homePageInfo</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.NewHomePageIface</class>
+    <method>homePageInfo</method>
+</interface>
+<interface>
+    <action>rent.order.getCityTypeByCityCode</action>
+    <login>false</login>
+    <class>com.hellobike.rent.order.iface.NewHomePageIface</class>
+    <method>getCityTypeByCityCode</method>
+</interface>
+<interface>
+    <action>rent.powerBike.findNearSpot</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.NewHomePageIface</class>
+    <method>nearSpot</method>
+</interface>
+<interface>
+    <action>rent.user.getGlobalConfigInfo</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.NewHomePageIface</class>
+    <method>getGlobalConfigInfo</method>
+</interface>
+<interface>
+    <action>rent.powerBike.skuViewForStages</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.YearRentIface</class>
+    <method>skuViewForStages</method>
+</interface>
+<interface>
+      <action>rent.user.getStockBySpecId</action>
+      <login>true</login>
+      <class>com.hellobike.rent.user.api.iface.SwithPowerVerifyIface</class>
+      <method>getStockBySpecId</method>
+</interface>
+<interface>
+      <action>rent.user.getStockByModelId</action>
+      <login>true</login>
+      <class>com.hellobike.rent.user.api.iface.RentDetailPageIface</class>
+      <method>getStockMyModelId</method>
+</interface>
+<interface>
+      <action>rent.user.detailWords</action>
+      <login>false</login>
+      <class>com.hellobike.rent.user.api.iface.RentDetailPageIface</class>
+      <method>detailWords</method>
+</interface>
+<interface>
+      <action>rent.user.queryPowerBikeStatus</action>
+      <login>true</login>
+      <class>com.hellobike.rent.user.api.iface.RentDetailPageIface</class>
+      <method>queryPowerBikeStatus</method>
+</interface>
+<interface>
+    <action>rent.order.getUserTabShowType</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.NewHomePageIface</class>
+    <method>getUserTabShowType</method>
+</interface>
+
+<interface>
+      <action>ent.user.queryBikeDetail</action>
+      <login>true</login>
+      <class>com.hellobike.rent.user.api.iface.RentDetailPageIface</class>
+      <method>queryBikeDetail</method>
+</interface>
+<interface>
+    <action>rent.user.isFirstEnter</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.RentDetailPageIface</class>
+    <method>isFirstEnter</method>
+</interface>
+<interface>
+    <action>rent.powerBike.getVoucherInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.OrderPageIface</class>
+    <method>getVoucherInfo</method>
+</interface>
+<interface>
+    <action>rent.platform.getCertInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.OrderPageIface</class>
+    <method>getCertInfo</method>
+</interface>
+<!-- 订单重构 end -->
+<!-- sprint w22  start -->
+<interface>
+    <action>rent.user.calculateSellPrice</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.YearRentIface</class>
+    <method>calculateSellPrice</method>
+</interface>
+<interface>
+    <action>rent.powerBike.applyCouponByBatch</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.CouponIface</class>
+    <method>applyCouponByBatch</method>
+</interface>
+<interface>
+    <action>rent.user.continueCouponList</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.OrderPageIface</class>
+    <method>continueCouponList</method>
+</interface>
+<interface>
+    <action>rent.user.getUserGuide</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.UserGuideIface</class>
+    <method>getUserGuide</method>
+</interface>
+<!-- sprint w22  start -->
+<!--换电-->
+<interface>
+    <action>rent.powerBike.changeBatteryInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.change.battery.iface.ChangeBatteryIface</class>
+    <method>changeBatteryInfo</method>
+</interface>
+<interface>
+    <action>rent.powerBike.createChangeBatteryOrder</action>
+    <login>true</login>
+    <class>com.hellobike.rent.change.battery.iface.ChangeBatteryIface</class>
+    <method>createChangeBatteryOrder</method>
+</interface>
+<interface>
+    <action>rent.changeBattery.alipay</action>
+    <login>true</login>
+    <class>com.hellobike.rent.change.battery.iface.ChangeBatteryIface</class>
+    <method>alipay</method>
+</interface>
+<interface>
+    <action>rent.user.calculateRentPrice</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.MonthlyRentIface</class>
+    <method>calculateRentPrice</method>
+</interface>
+
+<!-- 迁移到新接口
+<interface>
+    <action>rent.user.getStockByModelId</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.SwithPowerVerifyIface</class>
+    <method>getStockByModelId</method>
+</interface>
+-->
+
+<!-- 迁移到新接口
+<interface>
+    <action>rent.user.getStockBySpecId</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.SwithPowerVerifyIface</class>
+    <method>getStockBySpecId</method>
+</interface>
+-->
+<!-- 换电 end-->
+<!-- sprint w20  start -->
+<interface>
+    <action>rent.user.checkZmxyScore</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.ZmrzIface</class>
+    <method>checkZmxyScore</method>
+</interface>
+<interface>
+    <action>rent.user.appAplyZmxyFree</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.ZmrzIface</class>
+    <method>appAplyZmxyFree</method>
+</interface>
+<interface>
+    <action>rent.user.orderVerify</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.SwithPowerVerifyIface</class>
+    <method>orderVerify</method>
+</interface>
+<!-- sprint w20  end -->
+  <!-- sprint-w18 -->
+<interface>
+    <action>user.ride.bikeInfo</action>
+    <login>false</login>
+    <required>bikeNo</required>
+    <class>com.easybike.rideprocess.ifaces.BikeParkIface</class>
+    <method>getBikeInfo</method>
+</interface>
+<interface>
+    <action>rent.user.hasForbiddenZoneAlert</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.ForbiddenZoneAlertIface</class>
+    <method>hasForbiddenZoneAlert</method>
+</interface>
+<interface>
+    <action>rent.powerBike.updateFirstUnLockBattery</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.UseBikePageIface</class>
+    <method>updateFirstUnLockBattery</method>
+</interface>
+<!-- sprint-w18 -->
+<!-- sprint-w16 -->
+<!--<interface>
+    <action>rent.user.getGlobalConfigInfo</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.HomePageIface</class>
+    <method>getGlobalConfigInfo</method>
+</interface>-->
+<interface>
+    <action>rent.user.getH5SharePageInfo</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.H5SharePageIface</class>
+    <method>getH5SharePageInfo</method>
+</interface>
+<interface>
+    <action>rent.user.getOpenCityFlag</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.H5SharePageIface</class>
+    <method>getOpenCityFlag</method>
+</interface>
+<!-- sprint-w16 -->
+<!-- sprint-w14 -->
+<interface>
+    <action>rent.user.viewCanRentNew</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.MonthlyRentIface</class>
+    <method>viewCanRent2</method>
+</interface>
+<interface>
+    <action>rent.user.queryCityCode</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.OrderRentConfirmIface</class>
+    <method>queryCityCode</method>
+</interface>
+<!-- sprint-w14 -->
+<!-- sprint-w12 -->
+<interface>
+    <action>rent.user.hasWaitingPayOrder</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.HomePageIface</class>
+    <method>hasWaitingPayOrder</method>
+</interface>
+<!-- 迁移到新接口
+<interface>
+    <action>rent.powerBike.skuViewForStages</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>skuViewForStages</method>
+</interface>
+-->
+<!-- sprint-w12 -->
+<!-- sprint-w10 -->
+<interface>
+    <action>rent.user.weeklyLandPage</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.WeeklyRentIface</class>
+    <method>getWeeklyRentLandpage</method>
+</interface>
+<interface>
+    <action>rent.user.viewCanWeeklyRent</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.WeeklyRentIface</class>
+    <method>getWeeklyRentSkuSelector</method>
+</interface>
+<interface>
+    <action>rent.user.getNewUserFlag</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.ChargeIface</class>
+    <method>getNewUserFlag</method>
+</interface>
+<interface>
+    <action>rent.user.rentPowerBikeWeekly</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.OrderRentConfirmIface</class>
+    <method>rentPowerBikeWeekly</method>
+</interface>
+<interface>
+    <action>rent.user.weeklyConfig</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.OrderRentConfirmIface</class>
+    <method>weeklyConfig</method>
+</interface>
+<interface>
+    <action>rent.order.manualInsure</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderInsuranceIface</class>
+    <method>manualInsure</method>
+</interface>
+<!-- sprint-w10 end -->
+<interface>
+    <action>rent.finance.configinfo</action>
+    <login>true</login>
+    <required>action,businessType</required>
+    <class>com.easybike.rent.finance.iface.PaymentIface</class>
+    <method>configInfo</method>
+</interface>
+
+<interface>
+    <action>rent.finance.queryChargePage</action>
+    <login>true</login>
+    <required>action,beginDate</required>
+    <class>com.easybike.rent.finance.iface.ChargeIface</class>
+    <method>queryChargePage</method>
+</interface>
+
+<interface>
+    <action>rent.activity.buyVoucher</action>
+    <login>true</login>
+    <class>com.hellobike.rent.ifaces.ActivityInfoIface</class>
+    <method>buyVoucher</method>
+</interface>
+
+<interface>
+    <action>rent.activity.getVoucherAndRideCardInfo</action>
+    <login>false</login>
+    <class>com.hellobike.rent.ifaces.ActivityInfoIface</class>
+    <method>getVoucherAndRideCardInfo</method>
+</interface>
+
+<interface>
+    <action>rent.activity.checkHomePageType</action>
+    <login>true</login>
+    <class>com.hellobike.rent.ifaces.ActivityInfoIface</class>
+    <method>checkHomePageType</method>
+</interface>
+
+<interface>
+    <action>rent.activity.getVoucherShareBuyCount</action>
+    <login>true</login>
+    <class>com.hellobike.rent.ifaces.ActivityInfoIface</class>
+    <method>getVoucherShareBuyCount</method>
+</interface>
+
+<interface>
+    <action>rent.activity.getRideCardShareClickCount</action>
+    <login>true</login>
+    <class>com.hellobike.rent.ifaces.ActivityInfoIface</class>
+    <method>getRideCardShareClickCount</method>
+</interface>
+
+<interface>
+    <action>rent.activity.checkIsBuyVoucher</action>
+    <login>true</login>
+    <class>com.hellobike.rent.ifaces.ActivityInfoIface</class>
+    <method>checkIsBuyVoucher</method>
+</interface>
+
+<interface>
+    <action>rent.activity.shareClickRecord</action>
+    <login>false</login>
+    <class>com.hellobike.rent.ifaces.ShareOperationIface</class>
+    <method>shareClickRecord</method>
+</interface>
+
+<interface>
+    <action>rent.activity.getUserInfoByPhone</action>
+    <login>false</login>
+    <class>com.hellobike.rent.ifaces.ActivityInfoIface</class>
+    <method>getUserInfoByPhone</method>
+</interface>
+
+
+<interface>
+    <action>rent.powerBike.setOrder</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderCommonIface</class>
+    <method>setOrder</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.getInsuranceInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getInsuranceInfo</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.getDeliveryCoverage</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.OrderRentConfirmIface</class>
+    <method>getDeliveryCoverage</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.getNearlyShop</action>
+    <login>false</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getNearlyShop</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.getVoucherInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getVoucherInfo</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.viewCanSell</action>
+    <login>false</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>viewCanSell</method>
+    <mock>{"code":100,"msg":"因版本限制，请先升级至最新版本。新版本有更多优惠哦"}</mock>
+</interface>
+
+<interface>
+    <action>rent.user.fund.freeze</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>freeze</method>
+</interface>
+
+<interface>
+    <action>rent.user.viewCanRent</action>
+    <login>false</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>viewCanRent</method>
+    <mock>{"code":100,"msg":"因版本限制，请先升级至最新版本。新版本有更多优惠哦"}</mock>
+</interface>
+
+<interface>
+    <action>rent.powerBike.getBannerAndPriceInfo</action>
+    <login>false</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getBannerAndPriceInfo</method>
+    <mock>{"code":100,"msg":"因版本限制，请先升级至最新版本。新版本有更多优惠哦"}</mock>
+</interface>
+
+<interface>
+    <action>rent.powerBike.getFreezePrice</action>
+    <login>false</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getFreezePrice</method>
+</interface>
+
+<interface>
+    <action>rent.user.queryRentTerm</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.PowerBikeRentIface</class>
+    <method>queryRentTerm</method>
+</interface>
+
+<!-- 迁移到新接口
+<interface>
+    <action>rent.user.queryPowerBikeStatus</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.PowerBikeRentIface</class>
+    <method>queryPowerBikeStatus</method>
+</interface>
+-->
+
+<interface>
+    <action>rent.user.isFirstEnter</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserRentIface</class>
+    <method>isFirstEnter</method>
+</interface>
+
+<interface>
+    <action>rent.user.rentconfirm</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderCommonIface</class>
+    <method>rentconfirm</method>
+</interface>
+
+<!-- 迁移到新接口
+<interface>
+    <action>rent.user.queryBikeDetail</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserRentIface</class>
+    <method>queryBikeDetail</method>
+</interface>
+-->
+
+<interface>
+    <action>rent.finance.alipay</action>
+    <login>true</login>
+    <required>action,amount,orderType,systemCode</required>
+    <class>com.hellobike.rent.order.iface.OrderCommonIface</class>
+    <method>alipay</method>
+</interface>
+
+<interface>
+    <action>rent.user.huabei</action>
+    <login>true</login>
+    <required>action,amount</required>
+    <class>com.hellobike.rent.user.iface.UserRentIface</class>
+    <method>huabeiInfo</method>
+</interface>
+
+<!-- 迁移到新接口
+<interface>
+    <action>rent.user.detailWords</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.iface.UserRentIface</class>
+    <method>detailWords</method>
+</interface>
+-->
+
+<interface>
+    <action>rent.powerBike.queryInfoForContinue</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderCommonIface</class>
+    <method>queryInfoForContinue</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.continueRent</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderCommonIface</class>
+    <method>placeContinueOrder</method>
+</interface>
+
+<interface>
+    <action>rent.order.openLock</action>
+    <login>true</login>
+    <class>com.hellobike.rent.core.RentBikeCommandIface</class>
+    <method>openLockCommand</method>
+</interface>
+<interface>
+    <action>rent.order.closeLockCommand</action>
+    <login>true</login>
+    <class>com.hellobike.rent.core.RentBikeCommandIface</class>
+    <method>closeLockCommand</method>
+</interface>
+<interface>
+    <action>rent.order.batteryUnLock</action>
+    <login>true</login>
+    <class>com.hellobike.rent.core.RentBikeCommandIface</class>
+    <method>batteryUnLock</method>
+</interface>
+<interface>
+    <action>rent.order.getBluetoothCommand</action>
+    <login>true</login>
+    <class>com.hellobike.rent.core.RentBikeCommandIface</class>
+    <method>getBluetoothCommandArray</method>
+</interface>
+
+<interface>
+    <action>rent.order.getRentBikeInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.RentBikeCommonIface</class>
+    <method>getRentBikeInfo</method>
+</interface>
+<interface>
+    <action>rent.order.getRentBikeStatus</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.RentBikeCommonIface</class>
+    <method>getRentBikeStatus</method>
+</interface>
+<interface>
+    <action>rent.order.bell</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.RentBikeCommonIface</class>
+    <method>bell</method>
+</interface>
+
+
+<interface>
+    <action>rent.order.getReturnStoreInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getReturnStoreInfo</method>
+</interface>
+<interface>
+    <action>rent.user.getRentType</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserRentIface</class>
+    <method>getRentType</method>
+</interface>
+<interface>
+    <action>rent.order.getRentSpend</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getRentSpend</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.hasUnBound</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserBindIface</class>
+    <method>hasUnBind</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.hasGarageBike</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserBindIface</class>
+    <method>hasGarageBike</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.waitBindList</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserBindIface</class>
+    <method>waitBindBikeList</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.garageList</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserBindIface</class>
+    <method>garageList</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.bindBike</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserBindIface</class>
+    <method>bindBike</method>
+</interface>
+
+<interface>
+    <action>rent.user.getLatestOrderInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderCommonIface</class>
+    <method>getLatestOrderInfo</method>
+</interface>
+<interface>
+    <action>rent.platform.getCertInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getCertInfo</method>
+</interface>
+
+<interface>
+    <action>rent.order.queryZmrzStatus</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>queryZmrzStatus</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.getSystemCouponInfoList</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getSystemCouponInfoList</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.getServiceTypeByCityCode</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getServiceTypeByCityCode</method>
+</interface>
+<interface>
+    <action>rent.powerBike.getShopListByCityCode</action>
+    <login>false</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getShopListByCityCode</method>
+</interface>
+
+<interface>
+    <action>rent.order.rentPowerBikeMonthly</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderCommonIface</class>
+    <method>rentPowerBikeMonthly</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.provideSystemCoupon</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>provideSystemCouponToUser</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.annualRent</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderCommonIface</class>
+    <method>annualRent</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.saveRentRideInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserRideIface</class>
+    <method>saveRentRideInfo</method>
+</interface>
+
+<interface>
+    <action>rent.powerBike.queryRentRideInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserRideIface</class>
+    <method>queryRentRideInfo</method>
+</interface>
+
+<interface>
+    <action>rent.order.setGear</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>setGear</method>
+</interface>
+
+<interface>
+    <action>rent.order.newZmrz</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>newZmrz</method>
+</interface>
+
+<interface>
+    <action>rent.order.getUsePageAnnouncement</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getUsePageAnnouncement</method>
+</interface>
+
+<!-- <interface>
+    <action>rent.order.getUserTabShowType</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getUserTabShowType</method>
+</interface> -->
+
+<interface>
+    <action>rent.user.checkNeedVerify</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.RentVerifyIface</class>
+    <method>checkNeedVerify</method>
+</interface>
+
+<interface>
+    <action>rent.user.sendSmsVerifyCode</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.RentVerifyIface</class>
+    <method>sendSmsVerifyCode</method>
+</interface>
+
+<interface>
+    <action>rent.user.sendVoiceVerifyCode</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.iface.RentVerifyIface</class>
+    <method>sendVoiceVerifyCode</method>
+</interface>
+
+<interface>
+    <action>rent.user.verifyMobile</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.RentVerifyIface</class>
+    <method>verifyMobile</method>
+</interface>
+
+<interface>
+    <action>rent.user.changeVerifyCapText</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.iface.RentVerifyIface</class>
+    <method>changeVerifyCapText</method>
+</interface>
+
+<interface>
+    <action>rent.powerbike.rentMonthlyConfigInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>rentMonthlyConfigInfo</method>
+</interface>
+
+<interface>
+    <action>rent.binding.dropPointList</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserBindIface</class>
+    <method>getBindDropPointList</method>
+</interface>
+
+<interface>
+    <action>rent.binding.queryBindByBikeNo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserBindIface</class>
+    <method>queryBindByBikeNo</method>
+</interface>
+
+<!-- sprint07 -->
+<interface>
+    <action>rent.powerBike.getSystemCouponPopUp</action>
+    <login>false</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getSystemCouponPopUp</method>
+</interface>
+
+<interface>
+    <action>rent.order.queryAnnualOrderConfig</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>queryAnnualOrderConfig</method>
+</interface>
+<!-- sprint07 -->
+
+<!-- sprint08 -->
+<interface>
+    <action>rent.platform.queryCertInfoUnmask</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>queryCertInfoUnmask</method>
+</interface>
+<interface>
+    <action>rent.powerBike.calculateDeliveryPrice</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>calculateDeliveryPrice</method>
+</interface>
+<interface>
+    <action>rent.powerBike.calculateCollectPrice</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>calculateCollectPrice</method>
+</interface>
+<interface>
+    <action>rent.platform.queryCertInfoUnmask</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>queryCertInfoUnmask</method>
+</interface>
+<interface>
+    <action>rent.powerBike.calculateDeliveryPrice</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>calculateDeliveryPrice</method>
+</interface>
+<interface>
+    <action>rent.powerBike.calculateCollectPrice</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>calculateCollectPrice</method>
+</interface>
+<!-- sprint08 end -->
+
+<!-- sprint09 -->
+<!-- com.hellobike.rent.user.iface.UserRemindIface -->
+<interface>
+    <action>rent.order.setCollectOrder</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.CollectOrderCommonIface</class>
+    <method>setCollectOrder</method>
+</interface>
+<interface>
+    <action>rent.order.getOrderInfo</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.OrderCommonIface</class>
+    <method>getOrderInfo</method>
+</interface>
+<interface>
+    <action>rent.order.getCollectOrderByOrderId</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.CollectOrderCommonIface</class>
+    <method>getCollectOrderByOrderId</method>
+</interface>
+<interface>
+    <action>rent.user.queryUserRemind</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserRemindIface</class>
+    <method>queryUserRemind</method>
+</interface>
+<interface>
+    <action>rent.user.updateUserRemind</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.iface.UserRemindIface</class>
+    <method>updateUserRemind</method>
+</interface>
+<!-- sprint09 end -->
+<!-- sprint10  -->
+<!-- 预售首页 -->
+<interface>
+    <action>rent.activity.getHomePresellInfoPre</action>
+    <login>false</login>
+    <class>com.hellobike.rent.ifaces.ActivityManagerIface</class>
+    <method>getHomePresellInfoPre</method>
+</interface>
+<interface>
+    <action>rent.activity.getHomePresellInfoNext</action>
+    <login>true</login>
+    <class>com.hellobike.rent.ifaces.ActivityManagerIface</class>
+    <method>getHomePresellInfoNext</method>
+</interface>
+<interface>
+    <action>rent.activity.checkHasBuyVoucher</action>
+    <login>true</login>
+    <class>com.hellobike.rent.ifaces.ActivityManagerIface</class>
+    <method>checkHasBuyVoucher</method>
+</interface>
+<!-- 商城首页 -->
+<!--<interface>
+    <action>rent.powerBike.homePageInfo</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.HomePageIface</class>
+    <method>homePageInfo</method>
+</interface>-->
+<!--<interface>
+    <action>rent.powerBike.findNearSpot</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.HomePageIface</class>
+    <method>nearSpot</method>
+</interface>-->
+<!-- 收车单修改联系人 -->
+<interface>
+    <action>rent.order.updateUserContactPhone</action>
+    <login>true</login>
+    <class>com.hellobike.rent.order.iface.CollectOrderCommonIface</class>
+    <method>updateUserContactPhone</method>
+</interface>
+<!-- sprint10 end -->
+
+<interface>
+    <action>rent.bike.sms</action>
+    <login>false</login>
+    <class>com.hellobike.rentbike.ifaces.RentBikeCommandIface</class>
+    <method>sendCommandSms</method>
+</interface>
+
+<!-- sprint-w04 -->
+<!-- 获取城市类型 -->
+<!--<interface>
+    <action>rent.order.getCityTypeByCityCode</action>
+    <login>false</login>
+    <class>com.hellobike.rent.order.iface.OrderConfigIface</class>
+    <method>getCityTypeByCityCode</method>
+</interface>-->
+<!-- sprint-w04 end -->
+
+<!-- 用车页改版 -->
+<interface>
+    <action>rent.powerBike.getUseBikePageMinorInfo</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.UseBikePageIface</class>
+    <method>getUseBikePageMinorInfo</method>
+</interface>
+<interface>
+    <action>rent.powerBike.isFirstGuidePic</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.UseBikePageIface</class>
+    <method>isFirstGuidePic</method>
+</interface>
+<interface>
+    <action>rent.powerBike.needRemindBeforeUnLockBattery</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.UseBikePageIface</class>
+    <method>needRemindBeforeUnLockBattery</method>
+</interface>
+
+<!-- mgm start -->
+<interface>
+    <action>rent.mgm.inviteFriend</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.MgmIface</class>
+    <method>inviteFriend</method>
+</interface>
+<interface>
+    <action>rent.mgm.queryMyMgmAward</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.MgmIface</class>
+    <method>queryMyMgmAward</method>
+</interface>
+<interface>
+    <action>rent.activity.mgm.getH5Config</action>
+    <login>true</login>
+    <class>com.hellobike.rent.user.api.iface.MgmIface</class>
+    <method>getH5Config</method>
+</interface>
+<interface>
+    <action>rent.activity.msg.uploadImg</action>
+    <login>false</login>
+    <class>com.hellobike.rent.user.api.iface.MgmIface</class>
+    <method>uploadImg</method>
+</interface>
+<!-- mgm start -->
+</interfaces>
