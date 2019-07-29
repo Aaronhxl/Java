@@ -19,5 +19,7 @@ public class Test_01 {
         System.out.println(s.getClass());
 
         System.out.println(i.getClass().equals(s.getClass()));//true
+
+
     }
 }

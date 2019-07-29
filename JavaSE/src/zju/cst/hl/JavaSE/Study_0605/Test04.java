@@ -1,5 +1,8 @@
 package zju.cst.hl.JavaSE.Study_0605;
 
+/**
+ * finally语句
+ */
 public class Test04 {
     public static void main(String[] args) {
         System.out.println(new Test04().method());
