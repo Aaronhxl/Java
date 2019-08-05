@@ -2,135 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7d71815f-91f0-45f5-af59-664d7d995300" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__com_carrotsearch_hppc_0_7_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_8.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_cbor_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_smile_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_yaml_2_8_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__com_github_spullara_mustache_java_compiler_0_9_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__com_tdunning_t_digest_3_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__com_vividsolutions_jts_1_13.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__commons_logging_commons_logging_1_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__io_netty_netty_3_10_6_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__io_netty_netty_buffer_4_1_13_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__io_netty_netty_codec_4_1_13_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_13_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__io_netty_netty_common_4_1_13_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__io_netty_netty_handler_4_1_13_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__io_netty_netty_resolver_4_1_13_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__io_netty_netty_transport_4_1_13_Final.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__joda_time_joda_time_2_10.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__junit_junit_4_12.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__net_sf_jopt_simple_jopt_simple_5_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_httpcomponents_httpasyncclient_4_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_nio_4_4_5.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_logging_log4j_log4j_api_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_logging_log4j_log4j_core_2_11_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_logging_log4j_log4j_to_slf4j_2_11_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_analyzers_common_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_backward_codecs_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_core_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_grouping_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_highlighter_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_join_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_memory_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_misc_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_queries_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_queryparser_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_sandbox_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_spatial3d_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_spatial_extras_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_apache_lucene_lucene_suggest_6_6_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_elasticsearch_client_elasticsearch_rest_client_5_6_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_elasticsearch_client_transport_5_6_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_elasticsearch_elasticsearch_5_6_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_elasticsearch_jna_4_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_elasticsearch_plugin_lang_mustache_client_5_6_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_elasticsearch_plugin_parent_join_client_5_6_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_elasticsearch_plugin_percolator_client_5_6_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_elasticsearch_plugin_reindex_client_5_6_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty3_client_5_6_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_elasticsearch_plugin_transport_netty4_client_5_6_16.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_elasticsearch_securesm_1_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_hdrhistogram_HdrHistogram_2_1_9.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_locationtech_spatial4j_spatial4j_0_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_slf4j_slf4j_simple_1_7_26.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/libraries/Maven__org_yaml_snakeyaml_1_15.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/EsFirst/EsFirst.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/EsFirst/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/EsFirst/src/main/java/com/hellobike/es/ElasticSearchClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ElasticSearch/EsFirst/src/main/java/com/hellobike/es/entiry/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/Study_0620/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/Study_0620/Test02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/Study_0620/Test03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/Study_0620/Test04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/Study_0620/Test05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/study_0621/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/study_0629/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/study_0712/Fu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/study_0712/Test01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/study_0715/AbstractClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/study_0715/BigDecimalTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/study_0715/InterfaceMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/study_0715/InterfaceMethodTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/study_0715/StaticClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/study_0722/Study_0722.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/concurrent/Study_0720.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/google-java-format.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_04.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_05.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/Tree/LaterOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/Tree/MidOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/Tree/PreOrder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/leetcode/dp/FibonacciSequence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/leetcode/number_227/Number_227.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/leetcode/number_322/Number_322.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zju/cst/leetcode/number_97/Number_97.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/doc/exchange/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/doc/exchange/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/doc/simple/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/doc/simple/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/doc/workfair/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/doc/workfair/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/ps/Recv1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/ps/Recv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/ps/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/simple/Recv.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/simple/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/utils/ConnectionUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/work/Recv1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/work/Recv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/work/Send.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/workfair/Recv1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/workfair/Recv2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../RabbitMq/src/main/java/com/hellobike/rabbitmq/workfair/Send.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/out/production/JavaSE/META-INF/JavaSE.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/out/production/JavaSE/zju/cst/hl/JavaSE/Study_0530/Test_01.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/out/production/JavaSE/zju/cst/hl/JavaSE/Study_0530/Test_01.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/out/production/JavaSE/zju/cst/hl/JavaSE/Study_0605/Test04.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/out/production/JavaSE/zju/cst/hl/JavaSE/Study_0605/Test04.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/out/production/JavaSE/zju/cst/hl/JavaSE/Study_0609/Test02.class" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/out/production/JavaSE/zju/cst/hl/JavaSE/Study_0609/Test02.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/Study_0530/Test_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/Study_0530/Test_01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/Study_0605/Test04.java" beforeDir="false" afterPath="$PROJECT_DIR$/../JavaSE/src/zju/cst/hl/JavaSE/Study_0605/Test04.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zju/cst/offer/Num_01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zju/cst/offer/Num_02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zju/cst/offer/Num_03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zju/cst/offer/Num_04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/META-INF/LeetCode.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/zju/cst/leetcode/Number_16/Number_16.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/zju/cst/leetcode/Number_16/Number_16.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zju/cst/leetcode/Number_454/Number_454.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zju/cst/leetcode/Number_454/Number_454.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/zju/cst/Code/test_0727/test_05.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/zju/cst/Code/test_0727/test_05.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCode/zju/cst/leetcode/number_227/Number_227.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCode/zju/cst/leetcode/number_227/Number_227.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zju/cst/Tree/LaterOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zju/cst/Tree/LaterOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zju/cst/leetcode/number_227/Number_227.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zju/cst/leetcode/number_227/Number_227.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/zju/cst/leetcode/number_322/Number_322.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zju/cst/leetcode/number_322/Number_322.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -145,13 +26,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/number_227/Number_227.java">
+        <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_16/Number_16.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1007">
-              <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="1368">
+              <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_70/Number_70.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -159,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/number_97/Number_97.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="950">
-              <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
+            <state relative-caret-position="1121">
+              <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -169,10 +56,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_01.java">
+        <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_121/Number_121.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="855">
-              <caret line="47" column="60" selection-start-line="47" selection-start-column="60" selection-end-line="47" selection-end-column="60" />
+            <state relative-caret-position="893">
+              <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_122/Number_122.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="703">
+              <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_124/Number_124.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="798">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_217/Number_217.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -181,86 +95,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_02.java">
+        <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/number_227/Number_227.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="741">
-              <caret line="41" selection-start-line="41" selection-end-line="41" />
+            <state relative-caret-position="362">
+              <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_03.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="33" column="39" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_04.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_05.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1368">
-              <caret line="73" column="37" selection-start-line="73" selection-start-column="37" selection-end-line="73" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zju/cst/Tree/PreOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="22" column="5" selection-start-line="15" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/zju/cst/Tree/MidOrder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="646">
-              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
-              <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/zju/cst/Tree/LaterOrder.java">
+        <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/number_322/Number_322.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+            <state relative-caret-position="190">
+              <caret line="92" column="9" lean-forward="true" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_454/Number_454.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2413">
+              <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#861#862#0" expanded="true" />
-                <element signature="e#922#923#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -296,10 +159,8 @@
         <option value="$PROJECT_DIR$/src/zju/cst/leetcode/Number_70/Number_70.java" />
         <option value="$PROJECT_DIR$/src/zju/cst/leetcode/Number_11/Number_11.java" />
         <option value="$PROJECT_DIR$/src/zju/cst/leetcode/Number_217/Number_217.java" />
-        <option value="$PROJECT_DIR$/src/zju/cst/leetcode/number_322/Number_322.java" />
         <option value="$PROJECT_DIR$/src/zju/cst/leetcode/dp/FibonacciSequence.java" />
         <option value="$PROJECT_DIR$/src/zju/cst/leetcode/Number_454/Number_454.java" />
-        <option value="$PROJECT_DIR$/src/zju/cst/leetcode/number_227/Number_227.java" />
         <option value="$PROJECT_DIR$/src/zju/cst/leetcode/number_97/Number_97.java" />
         <option value="$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_01.java" />
         <option value="$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_02.java" />
@@ -308,7 +169,13 @@
         <option value="$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_05.java" />
         <option value="$PROJECT_DIR$/src/zju/cst/Tree/PreOrder.java" />
         <option value="$PROJECT_DIR$/src/zju/cst/Tree/MidOrder.java" />
+        <option value="$PROJECT_DIR$/src/zju/cst/offer/Num_01.java" />
+        <option value="$PROJECT_DIR$/src/zju/cst/offer/Num_03.java" />
+        <option value="$PROJECT_DIR$/src/zju/cst/offer/Num_04.java" />
+        <option value="$PROJECT_DIR$/src/zju/cst/offer/Num_02.java" />
         <option value="$PROJECT_DIR$/src/zju/cst/Tree/LaterOrder.java" />
+        <option value="$PROJECT_DIR$/src/zju/cst/leetcode/number_227/Number_227.java" />
+        <option value="$PROJECT_DIR$/src/zju/cst/leetcode/number_322/Number_322.java" />
       </list>
     </option>
   </component>
@@ -320,7 +187,7 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="963" />
     <option name="width" value="972" />
     <option name="height" value="1032" />
@@ -333,6 +200,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -356,20 +224,27 @@
               <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="cst" type="462c0819:PsiDirectoryNode" />
-              <item name="Tree" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="LeetCode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LeetCode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="cst" type="462c0819:PsiDirectoryNode" />
+              <item name="leetcode" type="462c0819:PsiDirectoryNode" />
+              <item name="number_322" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="D:/gerrit/AppRentCoreService" />
+    <property name="last_opened_file_path" value="D:/gerrit/AppRentBaseDataService" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="google-java-format.settings" />
@@ -398,13 +273,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.test_05">
-    <configuration name="test_01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zju.cst.Code.test_0727.test_01" />
+  <component name="RunManager" selected="Application.Number_322">
+    <configuration name="Num_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.cst.offer.Num_02" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zju.cst.Code.test_0727.*" />
+          <option name="PATTERN" value="zju.cst.offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -412,12 +287,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zju.cst.Code.test_0727.test_02" />
+    <configuration name="Num_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.cst.offer.Num_03" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zju.cst.Code.test_0727.*" />
+          <option name="PATTERN" value="zju.cst.offer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -425,12 +300,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zju.cst.Code.test_0727.test_03" />
+    <configuration name="Number_227" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.cst.leetcode.number_227.Number_227" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zju.cst.Code.test_0727.*" />
+          <option name="PATTERN" value="zju.cst.leetcode.number_227.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -438,12 +313,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="test_04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zju.cst.Code.test_0727.test_04" />
+    <configuration name="Number_322" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zju.cst.leetcode.number_322.Number_322" />
       <module name="LeetCode" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="zju.cst.Code.test_0727.*" />
+          <option name="PATTERN" value="zju.cst.leetcode.number_322.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -466,11 +341,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Number_322" />
+        <item itemvalue="Application.Number_227" />
+        <item itemvalue="Application.Num_02" />
+        <item itemvalue="Application.Num_03" />
         <item itemvalue="Application.test_05" />
-        <item itemvalue="Application.test_04" />
-        <item itemvalue="Application.test_03" />
-        <item itemvalue="Application.test_02" />
-        <item itemvalue="Application.test_01" />
       </list>
     </recent_temporary>
   </component>
@@ -507,18 +382,21 @@
       <workItem from="1564138693861" duration="670000" />
       <workItem from="1564230208058" duration="7663000" />
       <workItem from="1564332775962" duration="4452000" />
-      <workItem from="1564369872339" duration="638000" />
+      <workItem from="1564369872339" duration="4961000" />
+      <workItem from="1564456803945" duration="14000" />
+      <workItem from="1564466705324" duration="4971000" />
+      <workItem from="1564540783595" duration="6663000" />
+      <workItem from="1564628647212" duration="9668000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67618000" />
+    <option name="totallyTimeSpent" value="93257000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1295" height="695" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17138238" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18108326" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -528,7 +406,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.24156305" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.60568386" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.36412078" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -561,6 +439,18 @@
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zju/cst/leetcode/number_227/Number_227.java</url>
+          <line>30</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/zju/cst/leetcode/number_322/Number_322.java</url>
+          <line>24</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
@@ -577,20 +467,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_15/Number_16.java" />
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_16/Number_16.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_122/Number_122.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2108">
@@ -609,110 +485,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_124/Number_124.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="327">
-          <caret line="49" column="42" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_121/Number_121.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_124/Number_70.Number_70.java" />
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_15/Number_15.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_05/Number_05.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="80" column="50" selection-start-line="80" selection-start-column="50" selection-end-line="80" selection-end-column="50" />
-          <folding>
-            <element signature="e#265#266#0" expanded="true" />
-            <element signature="e#320#321#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_217/Number_217.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_11/Number_11.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_70/Number_70.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="45" column="14" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/number_322/Number_322.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/dp/FibonacciSequence.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_454/Number_454.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2679">
-          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/number_227/Number_227.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1007">
-          <caret line="54" column="21" selection-start-line="54" selection-start-column="21" selection-end-line="54" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/number_97/Number_97.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="52" column="18" selection-start-line="52" selection-start-column="18" selection-end-line="52" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/zju/cst/Code/test_0727/test_01.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -783,15 +556,169 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/offer/Num_03.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="22" column="27" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#553#554#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/offer/Num_04.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="27" column="49" selection-start-line="27" selection-start-column="49" selection-end-line="27" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/offer/Num_01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-342">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/offer/Num_02.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="21" column="33" lean-forward="true" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/zju/cst/Tree/LaterOrder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="56" column="26" selection-start-line="56" selection-start-column="26" selection-end-line="56" selection-end-column="26" />
+        <state relative-caret-position="206">
+          <caret line="50" column="37" lean-forward="true" selection-start-line="50" selection-start-column="37" selection-end-line="50" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#861#862#0" expanded="true" />
             <element signature="e#922#923#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/dp/FibonacciSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-245">
+          <caret line="60" column="9" lean-forward="true" selection-start-line="60" selection-start-column="9" selection-end-line="60" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_05/Number_05.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-858">
+          <caret line="3" column="26" lean-forward="true" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding>
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#320#321#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_11/Number_11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="50" column="9" lean-forward="true" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_15/Number_15.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="95" column="9" lean-forward="true" selection-start-line="95" selection-start-column="9" selection-end-line="95" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_16/Number_16.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1368">
+          <caret line="74" column="44" selection-start-line="74" selection-start-column="44" selection-end-line="74" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_70/Number_70.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/number_97/Number_97.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1121">
+          <caret line="61" column="18" selection-start-line="61" selection-start-column="18" selection-end-line="61" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_121/Number_121.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="54" selection-start-line="47" selection-start-column="54" selection-end-line="47" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_122/Number_122.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="27" selection-end-line="37" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_124/Number_124.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_217/Number_217.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="31" column="43" selection-start-line="31" selection-start-column="43" selection-end-line="31" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/Number_454/Number_454.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2413">
+          <caret line="129" column="1" selection-start-line="129" selection-start-column="1" selection-end-line="129" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/number_227/Number_227.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="118" column="19" selection-start-line="118" selection-start-column="19" selection-end-line="118" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zju/cst/leetcode/number_322/Number_322.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="92" column="9" lean-forward="true" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
         </state>
       </provider>
     </entry>

@@ -27,41 +27,100 @@ import java.util.Stack;
  */
 public class Number_227 {
 
+    public static void main(String[] args) {
+        System.out.println(calculate("3+2*2"));
+    }
+
     /**
      * 1.去掉空格
      * 2.拿到符号
      * 3.分割数字
-     * 4。运算
+     * 4。运算  逆波兰表达式求解
      * @param s
      * @return
      */
-    public int calculate(String s) {
-        int res = 0;
-        int num = 0;
-        char sign = '+';
-        Stack<Integer> stack = new Stack<>();
-        char[] sarr = s.toCharArray();
-        for (int i = 0; i < sarr.length; i++) {
-            if (sarr[i] >= '0') {
-                num = num * 10 + sarr[i] - '0';
+    public static int calculate(String s) {
+        StringBuilder temp = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            char c = s.charAt(i);
+            if(c !=' '){
+                temp.append(c);
             }
-            if ((sarr[i] < '0' && sarr[i] != ' ') || i == sarr.length - 1) {
-                if (sign == '+') {
-                    stack.push(num);
-                } else if (sign == '-') {
-                    stack.push(-num);
-                } else if (sign == '*' || sign == '/') {
-                    int top = stack.pop();
-                    stack.push(sign == '*' ? top * num : top / num);
+        }
+        String mid = temp.toString();
+        int pre = 0,later = 0;
+        Stack<Integer> nums = new Stack<>();
+        Stack<String> opretion = new Stack<>();
+        int flag = 0;
+        for (int i = 0; i < mid.length() ; i++) {
+            char c = mid.charAt(i);
+            if (c < '0' || c > '9' || i == mid.length() - 1){//此时为操作符
+                if(i!=mid.length()-1){
+                    later = i;
+                }else {
+                    later = mid.length();
                 }
-                sign = sarr[i];
-                num = 0;
+                String number = mid.substring(pre, later);
+                pre = i + 1;
+                int data = Integer.parseInt(number);
+                nums.add(data);
+
+                if(flag == 1){
+                    if(nums.size()>=2){
+                        Integer num1 = nums.pop();
+                        Integer num2 = nums.pop();
+                        String opre = opretion.pop();
+                        if (opre.equals("*")){
+                            nums.add(num1*num2);
+                        }else {
+                            nums.add(num2/num1);
+                        }
+                        flag = 0;
+                    }
+                }
+
+                switch (c){
+                    case '-':
+                        opretion.add("-");
+                        break;
+                    case '+':
+                        opretion.add("+");
+                        break;
+                    case '*':
+                        opretion.add("*");
+                        flag = 1;
+                        break;
+                    case '/':
+                        opretion.add("/");
+                        flag = 1;
+                        break;
+                        default:
+                }
+                if (flag!=1 && opretion.size()==2){
+                    String pop1 = opretion.pop();
+                    String pop2 = opretion.pop();
+                    Integer num1 = nums.pop();
+                    Integer num2 = nums.pop();
+                    if(pop2.equals("-")){
+                        nums.add(num2-num1);
+                    }else {
+                        nums.add(num2+num1);
+                    }
+                    opretion.add(pop1);
+                }
             }
         }
-        while (!stack.isEmpty()) {
-            res += stack.pop();
+        while (!opretion.isEmpty()){
+            String pop2 = opretion.pop();
+            Integer num1 = nums.pop();
+            Integer num2 = nums.pop();
+            if(pop2.equals("-")){
+                nums.add(num2-num1);
+            }else {
+                nums.add(num2+num1);
+            }
         }
-        return res;
+        return nums.pop();
     }
 
 }
